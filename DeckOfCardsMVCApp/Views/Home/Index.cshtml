@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Deck a card game";
+}
+
+
+<div id="app">
+    <div id="start-screen" class="screen">
+        <h1>Deck Of Cards</h1>
+        <button id="start-game-button" class="material-button black">Start a new game</button>
+    </div>
+    <div id="game-screen" class="screen hidden">
+        <div id="buttons-container">
+            <button class="material-button primary" id="deal-a-card">Deal a Card</button>
+            <button class="material-button info" id="cards-count">Cards count in deck</button>
+            <button class="material-button action" id="shuffle">Shuffle</button>
+            <button class="material-button danger" id="restart-game">Restart</button>
+        </div>
+        <h1 id="message"></h1>
+        <div id="card" class="hidden">
+
+        </div>
+    </div>
+</div>
